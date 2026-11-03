@@ -10,6 +10,8 @@ interface CourseCardProps {
   onOpenModal: (course: Course) => void;
 }
 
+const FALLBACK_THUMBNAIL = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80';
+
 export const CourseCard: React.FC<CourseCardProps> = ({ course, onOpenModal }) => {
   const { isFavorite, toggleFavorite } = useFavorites();
   const favorited = isFavorite(course.id);
@@ -23,6 +25,10 @@ export const CourseCard: React.FC<CourseCardProps> = ({ course, onOpenModal }) =
           alt={`Hình ảnh khóa học ${course.title} của giảng viên ${course.instructor.name}`}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = FALLBACK_THUMBNAIL;
+          }}
         />
 
         {/* Gradient Overlay */}

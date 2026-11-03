@@ -277,6 +277,10 @@ export const DetailPage: React.FC = () => {
                   src={course.thumbnail}
                   alt={`Xem trước nội dung khóa học ${course.title}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80';
+                  }}
                 />
                 <div className="absolute inset-0 bg-slate-900/40 flex items-center justify-center">
                   <div className="w-14 h-14 rounded-full bg-white/90 text-emerald-600 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
