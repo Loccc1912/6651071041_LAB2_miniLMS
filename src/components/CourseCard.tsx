@@ -25,6 +25,9 @@ export const CourseCard: React.FC<CourseCardProps> = ({ course, onOpenModal }) =
           alt={`Hình ảnh khóa học ${course.title} của giảng viên ${course.instructor.name}`}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
           loading="lazy"
+          decoding="async"
+          width="400"
+          height="250"
           onError={(e) => {
             e.currentTarget.onerror = null;
             e.currentTarget.src = FALLBACK_THUMBNAIL;

@@ -24,13 +24,13 @@ export const ListPage: React.FC = () => {
     sortBy: 'featured',
   });
 
-  // Giả lập tải dữ liệu khóa học với Skeleton Loading (800ms)
+  // Giả lập tải dữ liệu khóa học với Skeleton Loading mượt mà
   useEffect(() => {
     setLoading(true);
     const timer = setTimeout(() => {
       setCourses(coursesData as Course[]);
       setLoading(false);
-    }, 750);
+    }, 200);
 
     return () => clearTimeout(timer);
   }, []);

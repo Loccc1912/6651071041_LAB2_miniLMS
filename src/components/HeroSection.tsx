@@ -63,16 +63,28 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick }) => {
                   className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover"
                   src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80"
                   alt="Học viên EduLearn"
+                  width="36"
+                  height="36"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <img
                   className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover"
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80"
                   alt="Học viên EduLearn"
+                  width="36"
+                  height="36"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <img
                   className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover"
                   src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=80&q=80"
                   alt="Học viên EduLearn"
+                  width="36"
+                  height="36"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="h-9 w-9 rounded-full ring-2 ring-white bg-emerald-600 text-white flex items-center justify-center text-xs font-bold">
                   +12k
@@ -100,6 +112,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick }) => {
                   src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
                   alt="Nhóm sinh viên học tập trực tuyến cùng EduLearn"
                   className="w-full h-[380px] sm:h-[440px] object-cover"
+                  width="600"
+                  height="440"
+                  fetchPriority="high"
+                  decoding="async"
                 />
               </div>
 

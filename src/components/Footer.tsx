@@ -130,7 +130,7 @@ export const Footer: React.FC = () => {
               <a
                 href="https://facebook.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-emerald-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors"
                 aria-label="EduLearn trên Facebook"
               >
@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
               <a
                 href="https://youtube.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-emerald-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors"
                 aria-label="EduLearn trên Youtube"
               >
@@ -148,7 +148,7 @@ export const Footer: React.FC = () => {
               <a
                 href="https://github.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-emerald-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors"
                 aria-label="Mã nguồn EduLearn trên GitHub"
               >
@@ -157,7 +157,7 @@ export const Footer: React.FC = () => {
               <a
                 href="https://linkedin.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-emerald-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors"
                 aria-label="EduLearn trên LinkedIn"
               >
