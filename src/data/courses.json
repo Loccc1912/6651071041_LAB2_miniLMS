@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "course-01",
+    "title": "Lập trình React 18 & TypeScript Chuyên Sâu từ Zero đến Hero",
+    "instructor": {
+      "name": "Nguyễn Hoàng Nam",
+      "role": "Senior Frontend Architect @ VNG Corp",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Lập trình",
+    "shortDescription": "Làm chủ React 18, Hooks, Custom Hooks, Redux Toolkit, React Router v6 và xây dựng ứng dụng thực tế với TypeScript strict mode.",
+    "description": "Khóa học được thiết kế dành cho lập trình viên muốn nâng tầm kiến thức Frontend hiện đại. Bạn sẽ học cách xây dựng Single Page Application chuẩn kiến trúc doanh nghiệp, tối ưu hóa hiệu năng render, xử lý state toàn cục và tích hợp API mượt mà.",
+    "price": 599000,
+    "originalPrice": 1200000,
+    "studentsCount": 14280,
+    "rating": 4.9,
+    "reviewsCount": 1850,
+    "duration": "38 giờ học",
+    "lecturesCount": 112,
+    "level": "Trung cấp",
+    "badge": "Bán chạy nhất",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Nền tảng TypeScript & React 18 Core",
+        "duration": "6 giờ 30 phút",
+        "lessonsCount": 18,
+        "lessons": [
+          "Giới thiệu kiến trúc React 18 và cơ chế Concurrent Mode",
+          "Thiết lập TypeScript strict mode và cấu hình Vite siêu tốc",
+          "Type inference, Generics và Utility Types thực chiến",
+          "Component Lifecycle với useEffect và Cleanup function"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Quản lý State & Custom Hooks chuyên nghiệp",
+        "duration": "8 giờ 15 phút",
+        "lessonsCount": 24,
+        "lessons": [
+          "Sử dụng useReducer thay thế useState phức tạp",
+          "Tạo Custom Hook useDebounce và useLocalStorage an toàn",
+          "Context API tối ưu chống re-render vô ích",
+          "Thực hành xây dựng hệ thống giỏ hàng và danh sách yêu thích"
+        ]
+      },
+      {
+        "id": "ch-3",
+        "title": "Chương 3: Xây dựng dự án hoàn chỉnh & Deploy Production",
+        "duration": "12 giờ 45 phút",
+        "lessonsCount": 35,
+        "lessons": [
+          "Tích hợp React Router DOM v6 và dynamic route parameters",
+          "Phân quyền người dùng và Protected Routes",
+          "Unit test với Vitest và Testing Library",
+          "CI/CD pipeline và Deploy lên Vercel / Netlify"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có kiến thức cơ bản về HTML, CSS và JavaScript ES6+",
+      "Máy tính cài đặt Node.js phiên bản 18+ và Visual Studio Code",
+      "Tinh thần kiên trì và chủ động giải quyết bài tập thực tế"
+    ],
+    "outcomes": [
+      "Tự tin phỏng vấn vị trí Frontend / React Developer",
+      "Làm chủ hệ sinh thái React 18, Vite, Tailwind CSS và TypeScript",
+      "Biết cách viết code chuẩn Clean Code, tuân thủ SOLID và Design Patterns",
+      "Sở hữu dự án thực tế ấn tượng trong hồ sơ năng lực (Portfolio)"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-02",
+    "title": "Thiết Kế UI/UX Toàn Diện với Figma cho Web & Mobile App",
+    "instructor": {
+      "name": "Trần Thị Mai Phương",
+      "role": "Lead Product Designer @ Shopee",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Thiết kế đồ họa",
+    "shortDescription": "Quy trình thiết kế sản phẩm số bài bản từ nghiên cứu người dùng (User Research), Wireframe đến Design System và Prototype tương tác cao.",
+    "description": "Khóa học trang bị cho bạn tư duy thiết kế lấy người dùng làm trung tâm (Design Thinking). Học cách sử dụng thành thạo Figma Auto Layout 5.0, Component Variants, Interactive Components, Token Design và bàn giao tài liệu chuẩn cho Developer.",
+    "price": 499000,
+    "originalPrice": 990000,
+    "studentsCount": 9850,
+    "rating": 4.8,
+    "reviewsCount": 1210,
+    "duration": "28 giờ học",
+    "lecturesCount": 85,
+    "level": "Cơ bản",
+    "badge": "Đánh giá cao",
+    "thumbnail": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Nguyên lý thị giác & Bố cục thiết kế giao diện",
+        "duration": "5 giờ",
+        "lessonsCount": 15,
+        "lessons": [
+          "Hierarchy, Contrast, Alignment và Phối màu khoa học",
+          "Typography cho Web và Mobile theo chuẩn Accessibility",
+          "Hệ thống lưới Grid 8pt và Responsive Web Layout"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Figma thực chiến & Xây dựng Design System",
+        "duration": "11 giờ",
+        "lessonsCount": 35,
+        "lessons": [
+          "Bí quyết làm chủ Auto Layout và Responsive constraints",
+          "Xây dựng thư viện Component tái sử dụng với Variables",
+          "Thiết kế Dark Mode và Light Mode chuyển đổi tức thì"
+        ]
+      }
+    ],
+    "requirements": [
+      "Không yêu cầu kiến thức đồ họa trước đó",
+      "Tài khoản Figma miễn phí và trình duyệt web"
+    ],
+    "outcomes": [
+      "Tự thiết kế giao diện Website và Mobile App từ ý tưởng đến thực tế",
+      "Xây dựng Design System chuyên nghiệp theo tiêu chuẩn thế giới",
+      "Có sản phẩm Case Study hoàn chỉnh trên Behance / Dribbble"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-03",
+    "title": "Lập trình Backend Node.js, Express & MongoDB Chuẩn Microservices",
+    "instructor": {
+      "name": "Lê Văn Hùng",
+      "role": "Principal Backend Engineer @ Momo",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Lập trình",
+    "shortDescription": "Xây dựng RESTful API bảo mật, kiến trúc Clean Architecture, xác thực JWT, Redis Caching, Docker và triển khai Cloud AWS.",
+    "description": "Khoá học chuyên sâu về lập trình hệ thống Backend hiệu năng cao. Hướng dẫn chi tiết cách thiết kế cơ sở dữ liệu MongoDB/PostgreSQL, xử lý hàng triệu request đồng thời, logging, error handling và bảo mật theo chuẩn OWASP Top 10.",
+    "price": 649000,
+    "originalPrice": 1350000,
+    "studentsCount": 8200,
+    "rating": 4.9,
+    "reviewsCount": 940,
+    "duration": "42 giờ học",
+    "lecturesCount": 128,
+    "level": "Nâng cao",
+    "badge": "Khóa học mới",
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Kiến trúc Node.js Event Loop & Module System",
+        "duration": "7 giờ",
+        "lessonsCount": 20,
+        "lessons": [
+          "Bản chất Event Loop, Thread Pool và Non-blocking I/O",
+          "Xây dựng REST API chuẩn RESTful với Express và TypeScript",
+          "Validation dữ liệu với Joi và Zod"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Cơ sở dữ liệu, Caching và Bảo mật cấp cao",
+        "duration": "14 giờ",
+        "lessonsCount": 42,
+        "lessons": [
+          "Mongoose ODM, Indexing và tối ưu truy vấn aggregation",
+          "Caching siêu tốc với Redis Cache-Aside pattern",
+          "Xác thực đa yếu tố, JWT Access/Refresh Token và OAuth2"
+        ]
+      }
+    ],
+    "requirements": [
+      "Đã nắm vững cú pháp JavaScript hoặc TypeScript cơ bản",
+      "Hiểu biết căn bản về giao thức HTTP / Network"
+    ],
+    "outcomes": [
+      "Tự tay thiết kế và triển khai hệ thống Backend chịu tải cao",
+      "Làm chủ Docker Containerization và CI/CD tự động",
+      "Tự tin ứng tuyển vị trí Backend / Fullstack Node.js Developer"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-04",
+    "title": "Digital Marketing 4.0: Bùng Nổ Doanh Số Đa Kênh",
+    "instructor": {
+      "name": "Đặng Thuỳ Trang",
+      "role": "Marketing Director @ VinGroup",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Marketing",
+    "shortDescription": "Chiến lược Marketing đa kênh Facebook Ads, Google Ads, TikTok Marketing, SEO Onpage/Offpage và Tự động hóa Email Marketing.",
+    "description": "Trang bị tư duy marketing thực chiến và kỹ năng vận hành chiến dịch quảng cáo tối ưu chi phí ROI. Bạn sẽ được hướng dẫn phân tích phễu khách hàng, sáng tạo nội dung viral, đo lường dữ liệu bằng Google Analytics 4 (GA4).",
+    "price": 399000,
+    "originalPrice": 850000,
+    "studentsCount": 11500,
+    "rating": 4.7,
+    "reviewsCount": 1400,
+    "duration": "24 giờ học",
+    "lecturesCount": 68,
+    "level": "Cơ bản",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Phân tích thị trường & Chân dung khách hàng mục tiêu",
+        "duration": "6 giờ",
+        "lessonsCount": 16,
+        "lessons": [
+          "Nghiên cứu đối thủ cạnh tranh và lập ma trận SWOT",
+          "Vẽ Customer Persona và xác định điểm đau khách hàng",
+          "Xây dựng thông điệp định vị thương hiệu USP"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Quảng cáo chuyển đổi Meta Ads & TikTok Ads",
+        "duration": "10 giờ",
+        "lessonsCount": 28,
+        "lessons": [
+          "Cài đặt Pixel, CAPI và theo dõi chuyển đổi chính xác",
+          "Kỹ thuật A/B Testing hình ảnh và kịch bản video ngắn",
+          "Tối ưu ngân sách quảng cáo và tính toán chỉ số CAC, LTV"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có máy tính kết nối Internet để thực hành chiến dịch",
+      "Không cần kinh nghiệm marketing trước đó"
+    ],
+    "outcomes": [
+      "Tự thiết lập và chạy chiến dịch quảng cáo ra đơn tức thì",
+      "Đọc hiểu báo cáo số liệu và tối ưu chi phí chuyển đổi",
+      "Có chiến lược nội dung bài bản cho Fanpage và TikTok"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-05",
+    "title": "Khởi Nghiệp Tinh Gọn (Lean Startup) & Quản Trị Doanh Nghiệp 2026",
+    "instructor": {
+      "name": "Vũ Đình Tuấn",
+      "role": "CEO & Founder TechVentures Capital",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Kinh doanh",
+    "shortDescription": "Quy trình từ phát triển ý tưởng khởi nghiệp, thẩm định thị trường, lập mô hình kinh doanh Canvas đến gọi vốn đầu tư thành công.",
+    "description": "Khoá học đúc kết từ hơn 15 năm kinh nghiệm khởi nghiệp và cố vấn cho hơn 50 startup công nghệ. Bạn sẽ học cách xây dựng MVP (sản phẩm khả dụng tối thiểu), quản lý dòng tiền, xây dựng đội ngũ và thuyết trình gọi vốn trước các quỹ đầu tư mạo hiểm.",
+    "price": 699000,
+    "originalPrice": 1500000,
+    "studentsCount": 5400,
+    "rating": 4.9,
+    "reviewsCount": 780,
+    "duration": "22 giờ học",
+    "lecturesCount": 54,
+    "level": "Tất cả trình độ",
+    "badge": "Đánh giá cao",
+    "thumbnail": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Thẩm định ý tưởng & Thiết kế mô hình Canvas",
+        "duration": "6 giờ",
+        "lessonsCount": 14,
+        "lessons": [
+          "Kiểm chứng nhu cầu thị trường với ngân sách thấp",
+          "Hoàn thiện 9 khối Business Model Canvas",
+          "Phân tích cấu trúc chi phí và các dòng doanh thu bền vững"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Gọi vốn & Quản trị tài chính khởi nghiệp",
+        "duration": "8 giờ",
+        "lessonsCount": 20,
+        "lessons": [
+          "Soạn thảo Pitch Deck chuẩn quốc tế thu hút nhà đầu tư",
+          "Định giá doanh nghiệp giai đoạn Pre-Seed và Seed",
+          "Quản trị Burn Rate và kéo dài đường bay (Runway) tài chính"
+        ]
+      }
+    ],
+    "requirements": [
+      "Niềm đam mê kinh doanh và khát vọng khởi nghiệp",
+      "Không yêu cầu bằng cấp kinh tế"
+    ],
+    "outcomes": [
+      "Biết cách kiểm chứng ý tưởng kinh doanh trước khi đổ vốn",
+      "Sở hữu bản kế hoạch kinh doanh và Pitch Deck chỉn chu",
+      "Nắm vững các chỉ số tài chính sống còn của doanh nghiệp"
+    ],
+    "updatedAt": "Tháng 08/2026"
+  },
+  {
+    "id": "course-06",
+    "title": "Tiếng Anh Giao Tiếp Chuyên Nghiệp Trong Môi Trường Công Nghệ (IT English)",
+    "instructor": {
+      "name": "Sarah Williams & Nguyễn Minh Anh",
+      "role": "IELTS 8.5, Technical Translator @ Silicon Valley",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Ngoại ngữ",
+    "shortDescription": "Tự tin giao tiếp tiếng Anh trong Scrum meeting, viết email chuyên nghiệp, đọc tài liệu kỹ thuật và phỏng vấn công ty quốc tế.",
+    "description": "Khoá học độc quyền dành riêng cho nhân sự ngành công nghệ thông tin. Bạn sẽ làm chủ từ vựng chuyên ngành, ngữ pháp chuẩn mực trong báo cáo kỹ thuật (Technical Writing), tự tin demo tính năng trước đối tác nước ngoài và đàm phán lương bổng quốc tế.",
+    "price": 349000,
+    "originalPrice": 750000,
+    "studentsCount": 16800,
+    "rating": 4.8,
+    "reviewsCount": 2340,
+    "duration": "30 giờ học",
+    "lecturesCount": 90,
+    "level": "Cơ bản",
+    "badge": "Bán chạy nhất",
+    "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Tiếng Anh trong các buổi họp Agile / Scrum hàng ngày",
+        "duration": "7 giờ",
+        "lessonsCount": 22,
+        "lessons": [
+          "Mẫu câu chuẩn cho Daily Standup: What I did, What I will do, Blockers",
+          "Kỹ năng đặt câu hỏi trong Sprint Planning và Retrospective",
+          "Cách phản biện ý kiến chuyên môn lịch thiệp và thuyết phục"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Viết Email, Báo cáo Bug và Tài liệu Kỹ thuật",
+        "duration": "9 giờ",
+        "lessonsCount": 28,
+        "lessons": [
+          "Cách viết Issue và Pull Request rõ ràng, súc tích trên GitHub",
+          "Quy tắc viết email chuyên nghiệp theo các tình huống khẩn cấp",
+          "Chuẩn bị CV và kịch bản trả lời phỏng vấn Technical Interview"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có nền tảng tiếng Anh cơ bản (tương đương trình độ A2 trở lên)",
+      "Mong muốn làm việc trong môi trường công ty quốc tế / Outsourcing"
+    ],
+    "outcomes": [
+      "Xóa bỏ nỗi sợ nói tiếng Anh trong các cuộc họp trực tuyến",
+      "Tự tin phỏng vấn vào các tập đoàn công nghệ đa quốc gia",
+      "Đọc hiểu tài liệu công nghệ mới nhanh chóng không cần Google Dịch"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-07",
+    "title": "Quản Trị Mạng & Điện Toán Đám Mây AWS Solutions Architect",
+    "instructor": {
+      "name": "Hoàng Quốc Bảo",
+      "role": "AWS Certified Solutions Architect & DevOps Lead",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Công nghệ thông tin",
+    "shortDescription": "Làm chủ hạ tầng đám mây AWS: EC2, S3, RDS, VPC, Lambda, Auto Scaling, CloudFront và lộ trình thi đỗ chứng chỉ AWS SAA.",
+    "description": "Khoá học thực hành 100% trên môi trường AWS Lab. Bạn sẽ nắm chắc nguyên lý thiết kế hạ tầng có tính sẵn sàng cao (High Availability), khả năng chịu lỗi (Fault Tolerance) và tối ưu hóa chi phí vận hành cho doanh nghiệp hiện đại.",
+    "price": 799000,
+    "originalPrice": 1600000,
+    "studentsCount": 7100,
+    "rating": 4.9,
+    "reviewsCount": 920,
+    "duration": "45 giờ học",
+    "lecturesCount": 135,
+    "level": "Trung cấp",
+    "badge": "Đánh giá cao",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Mạng VPC & Cấu trúc Điện toán EC2, Lambda",
+        "duration": "12 giờ",
+        "lessonsCount": 32,
+        "lessons": [
+          "Thiết kế Subnet riêng, Subnet công cộng và NAT Gateway",
+          "Bảo mật mạng với Security Group và Network ACLs",
+          "Cấu hình Auto Scaling Group kết hợp Application Load Balancer"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Lưu trữ S3, Cơ sở dữ liệu RDS và Serverless",
+        "duration": "15 giờ",
+        "lessonsCount": 44,
+        "lessons": [
+          "S3 Bucket Policies, Versioning và Lifecycle Management",
+          "Cấu hình RDS Multi-AZ và Read Replicas dự phòng thảm họa",
+          "Xây dựng ứng dụng Serverless với API Gateway và DynamoDB"
+        ]
+      }
+    ],
+    "requirements": [
+      "Hiểu biết căn bản về mạng máy tính (IP, Subnet, DNS)",
+      "Đã từng sử dụng lệnh Linux cơ bản"
+    ],
+    "outcomes": [
+      "Tự tin thiết kế và vận hành hệ thống đám mây quy mô lớn trên AWS",
+      "Đủ năng lực thi đỗ chứng chỉ AWS Certified Solutions Architect Associate",
+      "Mở rộng cơ hội nghề nghiệp Cloud Engineer / DevOps với mức thu nhập cao"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-08",
+    "title": "Lập Trình Python từ Số 0 đến Ứng Dụng Phân Tích Dữ Liệu Thực Tế",
+    "instructor": {
+      "name": "ThS. Phạm Hải Đăng",
+      "role": "Data Scientist @ Viettel AI Institute",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Lập trình",
+    "shortDescription": "Học cú pháp Python hiện đại, thư viện xử lý dữ liệu Pandas, NumPy, trực quan hóa Matplotlib, Seaborn và cào dữ liệu Web Scraping.",
+    "description": "Khoá học phù hợp nhất cho người mới bắt đầu bước chân vào ngành lập trình và phân tích dữ liệu. Bạn sẽ được thực hành phân tích các bộ dữ liệu kinh doanh thực tế, tự động hóa tác vụ hàng ngày bằng script Python và vẽ biểu đồ trực quan ấn tượng.",
+    "price": 450000,
+    "originalPrice": 890000,
+    "studentsCount": 18900,
+    "rating": 4.8,
+    "reviewsCount": 2650,
+    "duration": "32 giờ học",
+    "lecturesCount": 96,
+    "level": "Cơ bản",
+    "badge": "Bán chạy nhất",
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Cú pháp Python cơ bản đến hướng đối tượng (OOP)",
+        "duration": "8 giờ",
+        "lessonsCount": 26,
+        "lessons": [
+          "Biến, kiểu dữ liệu, vòng lặp và câu lệnh điều kiện",
+          "Hàm, đệ quy, Lambda và xử lý ngoại lệ Exception",
+          "Lập trình hướng đối tượng OOP: Class, Object, Kế thừa"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Phân tích dữ liệu với NumPy và Pandas",
+        "duration": "12 giờ",
+        "lessonsCount": 38,
+        "lessons": [
+          "Thao tác ma trận và tính toán vector với NumPy",
+          "Làm sạch dữ liệu bẩn và xử lý Missing Value trong Pandas",
+          "Trực quan hóa Insight kinh doanh với Seaborn và Plotly"
+        ]
+      }
+    ],
+    "requirements": [
+      "Chỉ cần máy tính cài đặt Python (được hướng dẫn chi tiết trong bài 1)",
+      "Không cần nền tảng toán học phức tạp"
+    ],
+    "outcomes": [
+      "Thành thạo ngôn ngữ Python để viết phần mềm và công cụ tự động",
+      "Biết cách làm sạch, phân tích và trình bày dữ liệu kinh doanh",
+      "Tự tin tiếp tục học lên mảng Trí tuệ nhân tạo (AI) và Machine Learning"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-09",
+    "title": "Thiết Kế Đồ Họa Quảng Cáo & Nhận Diện Thương Hiệu Chuyên Nghiệp",
+    "instructor": {
+      "name": "Ngô Quốc Huy",
+      "role": "Creative Director @ Dentsu Redder",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Thiết kế đồ họa",
+    "shortDescription": "Làm chủ Photoshop & Illustrator: Thiết kế Logo, Key Visual, Bộ nhận diện thương hiệu (Brand Guidelines) và ấn phẩm mạng xã hội.",
+    "description": "Khoá học trang bị tư duy thẩm mỹ sắc bén và kỹ thuật chế bản chuyên nghiệp. Bạn sẽ học cách thiết kế poster quảng cáo bắt mắt, hiểu sâu về màu sắc trong tâm lý học tiêu dùng và xuất file in ấn chuẩn kỹ thuật không bị sai màu.",
+    "price": 520000,
+    "originalPrice": 1100000,
+    "studentsCount": 6300,
+    "rating": 4.7,
+    "reviewsCount": 810,
+    "duration": "30 giờ học",
+    "lecturesCount": 88,
+    "level": "Cơ bản",
+    "thumbnail": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Adobe Illustrator & Thiết kế Vector nhận diện",
+        "duration": "10 giờ",
+        "lessonsCount": 30,
+        "lessons": [
+          "Công cụ Pen tool, Shape Builder và tư duy tạo hình Logo",
+          "Quy chuẩn tỉ lệ vàng và lưới an toàn trong thiết kế Logo",
+          "Xây dựng bộ quy chuẩn thương hiệu Brand Guidelines"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Photoshop thực chiến & Kỹ xảo chỉnh sửa hình ảnh",
+        "duration": "12 giờ",
+        "lessonsCount": 36,
+        "lessons": [
+          "Cắt ghép hình ảnh nâng cao với Layer Mask và Pen Tool",
+          "Kỹ thuật xử lý ánh sáng và hiệu ứng đổ bóng tự nhiên",
+          "Thiết kế Banner quảng cáo thương mại điện tử (E-commerce)"
+        ]
+      }
+    ],
+    "requirements": [
+      "Máy tính cài đặt Adobe Photoshop và Adobe Illustrator",
+      "Đam mê sáng tạo nghệ thuật thị giác"
+    ],
+    "outcomes": [
+      "Thành thạo hai công cụ đồ họa tiêu chuẩn Photoshop & Illustrator",
+      "Tự thiết kế bộ nhận diện thương hiệu từ con số 0",
+      "Sẵn sàng nhận các dự án thiết kế Freelance kiếm thêm thu nhập"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-10",
+    "title": "Tối Ưu Hóa Công Cụ Tìm Kiếm (SEO Master) 2026: Lên Top Bền Vững",
+    "instructor": {
+      "name": "Bùi Văn Thành",
+      "role": "Senior SEO Strategist & Founder GTV SEO",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Marketing",
+    "shortDescription": "Quy trình SEO Entity bài bản: Nghiên cứu từ khóa Intent-based, Tối ưu Onpage, Technical SEO, Xây dựng Backlink chất lượng cao.",
+    "description": "Khoá học cung cấp phương pháp SEO chuẩn mũ trắng (White-hat) chống lại mọi đợt cập nhật thuật toán lõi của Google. Hướng dẫn sử dụng các công cụ hàng đầu: Ahrefs, SEMrush, Google Search Console và Screaming Frog để audit toàn diện website.",
+    "price": 420000,
+    "originalPrice": 880000,
+    "studentsCount": 7800,
+    "rating": 4.8,
+    "reviewsCount": 970,
+    "duration": "26 giờ học",
+    "lecturesCount": 72,
+    "level": "Trung cấp",
+    "thumbnail": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Nghiên cứu Từ khóa & Kiến trúc Thông tin Website",
+        "duration": "7 giờ",
+        "lessonsCount": 20,
+        "lessons": [
+          "Phân loại Search Intent: Informational, Commercial, Transactional",
+          "Nhóm từ khóa Keyword Clustering với công cụ hiện đại",
+          "Cấu trúc silo và liên kết nội bộ (Internal Link) hoàn hảo"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Technical SEO & Tối ưu Trải nghiệm Trang (Core Web Vitals)",
+        "duration": "9 giờ",
+        "lessonsCount": 26,
+        "lessons": [
+          "Tối ưu tốc độ tải trang LCP, FID, CLS đạt chuẩn Google",
+          "Cấu trúc dữ liệu có cấu trúc Schema Markup JSON-LD",
+          "Chiến lược phủ Backlink báo chí và PR lan tỏa thương hiệu"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có website WordPress hoặc Blog để thực hành trực tiếp",
+      "Có kiến thức cơ bản về Internet và trình duyệt"
+    ],
+    "outcomes": [
+      "Đưa hàng nghìn từ khóa mục tiêu lên trang nhất tìm kiếm Google",
+      "Tăng trưởng lượng truy cập tự nhiên (Organic Traffic) đột phá",
+      "Tiết kiệm hàng chục triệu chi phí quảng cáo mỗi tháng"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-11",
+    "title": "Quản Trị Dự Án Chuyên Nghiệp Theo Chuẩn PMP & Scrum Agile",
+    "instructor": {
+      "name": "Nguyễn Thanh Tùng, PMP",
+      "role": "Program Director @ FPT Software",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Kinh doanh",
+    "shortDescription": "Làm chủ phương pháp quản trị dự án hiện đại, quản lý tiến độ, chi phí, rủi ro, chất lượng và lãnh đạo đội ngũ kỹ sư hiệu quả.",
+    "description": "Khoá học đúc kết kiến thức chuẩn theo hướng dẫn PMBOK 7th Edition kết hợp thực hành linh hoạt với mô hình Scrum. Giúp bạn chuyển đổi từ quản lý dự án truyền thống thác nước (Waterfall) sang phương pháp Agile thích ứng nhanh với biến động thị trường.",
+    "price": 550000,
+    "originalPrice": 1250000,
+    "studentsCount": 4900,
+    "rating": 4.9,
+    "reviewsCount": 630,
+    "duration": "32 giờ học",
+    "lecturesCount": 80,
+    "level": "Nâng cao",
+    "badge": "Đánh giá cao",
+    "thumbnail": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Lập kế hoạch dự án & Quản lý phạm vi (Scope)",
+        "duration": "8 giờ",
+        "lessonsCount": 20,
+        "lessons": [
+          "Xây dựng Project Charter và xác định các bên liên quan (Stakeholders)",
+          "Phân rã công việc Work Breakdown Structure (WBS)",
+          "Ước lượng tiến độ theo phương pháp Critical Path Method (CPM)"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Vận hành Scrum Sprint và Quản trị rủi ro",
+        "duration": "10 giờ",
+        "lessonsCount": 24,
+        "lessons": [
+          "Các vai trò Product Owner, Scrum Master và Development Team",
+          "Quản lý backlog với Jira Software và công cụ Kanban",
+          "Nhận diện, đánh giá và lập phương án giảm thiểu rủi ro dự án"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có từ 6 tháng kinh nghiệm làm việc trong các dự án công nghệ hoặc kinh doanh",
+      "Quan tâm đến vai trò Project Manager hoặc Scrum Master"
+    ],
+    "outcomes": [
+      "Tự tin dẫn dắt các dự án từ lúc khởi động đến bàn giao thành công",
+      "Tiết kiệm thời gian, tối ưu ngân sách và đảm bảo chất lượng cam kết",
+      "Nền tảng vững chắc để thi chứng chỉ quốc tế PMP hoặc PMI-ACP"
+    ],
+    "updatedAt": "Tháng 08/2026"
+  },
+  {
+    "id": "course-12",
+    "title": "Luyện Thi IELTS Siêu Tốc 7.5+ Toàn Diện 4 Kỹ Năng",
+    "instructor": {
+      "name": "Thầy Daniel Robert (Ex-Examiner) & Cô Hà My",
+      "role": "IELTS 9.0 Overall, Cựu giám khảo chấm thi",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Ngoại ngữ",
+    "shortDescription": "Chiến lược làm bài thi IELTS Academic: Tips Reading, Listening, phương pháp tư duy Writing Task 1 & 2 và phản xạ Speaking trôi chảy.",
+    "description": "Khoá học phá vỡ các rào cản tâm lý khi đi thi IELTS. Phân tích ma trận tiêu chí chấm điểm của giám khảo (Band Descriptors), bộ từ vựng Academic Collocations cao cấp và hàng trăm bài mẫu Writing đạt điểm 8.0+ có lời giải chi tiết.",
+    "price": 680000,
+    "originalPrice": 1400000,
+    "studentsCount": 22100,
+    "rating": 4.9,
+    "reviewsCount": 3890,
+    "duration": "50 giờ học",
+    "lecturesCount": 140,
+    "level": "Trung cấp",
+    "badge": "Bán chạy nhất",
+    "thumbnail": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Listening & Reading: Kỹ thuật Skimming, Scanning và Keywords",
+        "duration": "14 giờ",
+        "lessonsCount": 40,
+        "lessons": [
+          "Bắt bẫy trong Listening Section 3 & 4 (học thuật)",
+          "Xử lý dạng bài True/False/Not Given không bao giờ sai",
+          "Kỹ thuật đọc nhanh đoạn văn dài và nắm ý chính Paraphrase"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Writing & Speaking: Phát triển luận điểm sắc bén",
+        "duration": "20 giờ",
+        "lessonsCount": 55,
+        "lessons": [
+          "Công thức viết mở bài và tổng quan Overview ăn điểm Task 1",
+          "Cấu trúc đoạn văn P.E.E.L trong luận luận Task 2",
+          "Phát xạ Speaking Part 2 và kéo dài câu trả lời Part 3 tự nhiên"
+        ]
+      }
+    ],
+    "requirements": [
+      "Trình độ đầu vào tối thiểu tương đương 5.0 - 5.5 IELTS",
+      "Dành ít nhất 1 giờ mỗi ngày để luyện tập các bài tập được giao"
+    ],
+    "outcomes": [
+      "Đạt điểm mục tiêu IELTS 7.0 - 8.0 để du học hoặc định cư",
+      "Nâng cao trình độ tư duy phản biện bằng tiếng Anh chuẩn học thuật",
+      "Tự tin giao tiếp và diễn đạt ý tưởng học thuật phức tạp"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-13",
+    "title": "An Toàn Thông Tin & Đạo Đức Hacker (Ethical Hacking CEH)",
+    "instructor": {
+      "name": "Trịnh Hoàng Long, CISSP",
+      "role": "Cybersecurity Consultant @ PwC Vietnam",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Công nghệ thông tin",
+    "shortDescription": "Thực hành kiểm thử xâm nhập (Penetration Testing), phân tích lỗ hổng mạng, Web Hacking, khai thác Metasploit và phòng thủ mạng.",
+    "description": "Khoá học đào tạo chuyên gia an ninh mạng thực thụ. Bạn sẽ được thực hành tấn công và phòng thủ trong môi trường Lab ảo an toàn, làm quen với Kali Linux, Wireshark, Burp Suite Pro, SQL Injection, XSS, CSRF và kỹ thuật leo thang đặc quyền.",
+    "price": 850000,
+    "originalPrice": 1800000,
+    "studentsCount": 5800,
+    "rating": 4.9,
+    "reviewsCount": 850,
+    "duration": "48 giờ học",
+    "lecturesCount": 130,
+    "level": "Nâng cao",
+    "badge": "Khóa học mới",
+    "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Thu thập thông tin mạng (Reconnaissance) & Quét lỗ hổng",
+        "duration": "10 giờ",
+        "lessonsCount": 28,
+        "lessons": [
+          "Kỹ thuật OSINT thu thập tình báo nguồn mở",
+          "Quét cổng và dịch vụ mạng với Nmap nâng cao",
+          "Phát hiện điểm yếu hệ thống với Nessus Vulnerability Scanner"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Kiểm thử bảo mật ứng dụng Web (OWASP Top 10)",
+        "duration": "16 giờ",
+        "lessonsCount": 42,
+        "lessons": [
+          "Đánh chặn và sửa đổi gói tin HTTP bằng Burp Suite",
+          "Khai thác lỗ hổng SQL Injection từ cơ bản đến mù (Blind SQLi)",
+          "Bảo vệ chống lại tấn công Cross-Site Scripting (XSS) và RCE"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có kiến thức căn bản về hệ điều hành Linux và giao thức mạng TCP/IP",
+      "Cam kết tuân thủ đạo đức nghề nghiệp và pháp luật an ninh mạng"
+    ],
+    "outcomes": [
+      "Nắm vững phương pháp kiểm thử bảo mật cho doanh nghiệp",
+      "Tự tin vá các lỗ hổng bảo mật nghiêm trọng trong ứng dụng",
+      "Chuẩn bị tốt cho kỳ thi chứng chỉ bảo mật quốc tế CEH v13"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-14",
+    "title": "Lập Trình Di Động Flutter & Dart Đa Nền Tảng (iOS & Android)",
+    "instructor": {
+      "name": "Nguyễn Đức Anh",
+      "role": "Mobile Tech Lead @ Grab Singapore",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Lập trình",
+    "shortDescription": "Xây dựng ứng dụng di động mượt mà 60fps cho cả Android và iOS bằng một mã nguồn duy nhất với Flutter 3.x, Bloc State Management.",
+    "description": "Khoá học đưa bạn từ con số 0 đến làm chủ công nghệ Flutter hàng đầu của Google. Bạn sẽ học cách thiết kế UI đẹp mắt, xử lý hiệu ứng chuyển động Animation phức tạp, lưu trữ dữ liệu offline với Hive/Isar và push notification với Firebase Cloud Messaging.",
+    "price": 580000,
+    "originalPrice": 1200000,
+    "studentsCount": 9400,
+    "rating": 4.8,
+    "reviewsCount": 1150,
+    "duration": "36 giờ học",
+    "lecturesCount": 105,
+    "level": "Trung cấp",
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Ngôn ngữ Dart & Cây Widget trong Flutter",
+        "duration": "8 giờ",
+        "lessonsCount": 24,
+        "lessons": [
+          "Dart 3 Sound Null Safety và Pattern Matching",
+          "Phân biệt Stateless và Stateful Widget chi tiết",
+          "Bố cục giao diện với Row, Column, Stack và CustomScrollView"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: BLoC Pattern & Tích hợp Firebase",
+        "duration": "12 giờ",
+        "lessonsCount": 35,
+        "lessons": [
+          "Kiến trúc phân tầng chuẩn Clean Architecture trong Flutter",
+          "Xử lý luồng dữ liệu phản ứng với BLoC & Cubit",
+          "Đăng nhập mạng xã hội, Firestore Database và xuất bản App Store"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có máy tính Windows hoặc macOS",
+      "Kiến thức cơ bản về lập trình hướng đối tượng (OOP)"
+    ],
+    "outcomes": [
+      "Tự tay xuất bản 2 ứng dụng thực tế lên Google Play và Apple App Store",
+      "Làm chủ mô hình quản lý state Bloc chuyên nghiệp trong doanh nghiệp",
+      "Trở thành lập trình viên Mobile đa nền tảng được săn đón"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-15",
+    "title": "Làm Video & Kỹ Xảo Hoạt Hình Motion Graphics với After Effects",
+    "instructor": {
+      "name": "Hoàng Minh Trí",
+      "role": "Senior Motion Designer @ VTV Digital",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Thiết kế đồ họa",
+    "shortDescription": "Sáng tạo video quảng cáo động, intro thương hiệu, hiệu ứng chữ Typography, kinetic motion và kỹ xảo điện ảnh đỉnh cao.",
+    "description": "Khoá học biến những ý tưởng tĩnh thành những thước phim chuyển động cuốn hút. Khám phá 12 nguyên lý hoạt hình kinh điển, cách làm chủ Keyframe, đồ thị vận tốc Graph Editor, biểu thức Expression và xuất video tối ưu cho mạng xã hội.",
+    "price": 460000,
+    "originalPrice": 950000,
+    "studentsCount": 5100,
+    "rating": 4.8,
+    "reviewsCount": 680,
+    "duration": "28 giờ học",
+    "lecturesCount": 78,
+    "level": "Cơ bản",
+    "thumbnail": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: 12 Nguyên lý Hoạt hình & Bậc thầy Keyframe",
+        "duration": "7 giờ",
+        "lessonsCount": 20,
+        "lessons": [
+          "Hiệu ứng nảy, biến dạng Squash and Stretch và dự đoán chuyển động",
+          "Làm chủ Graph Editor để tạo chuyển động tự nhiên, mượt mà",
+          "Animation chữ Kinetic Typography ấn tượng cho video ca nhạc / viral"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Không gian 3D, Camera và Hiệu ứng hạt (Particle)",
+        "duration": "10 giờ",
+        "lessonsCount": 28,
+        "lessons": [
+          "Điều khiển Camera 3D và nguồn sáng trong After Effects",
+          "Sử dụng Plugin Particular tạo hiệu ứng khói, lửa, phép thuật",
+          "Tích hợp mô hình từ Illustrator và bàn giao video chất lượng cao"
+        ]
+      }
+    ],
+    "requirements": [
+      "Máy tính có cấu hình ổn định cài đặt Adobe After Effects",
+      "Có tư duy thẩm mỹ và thích xem các video hoạt họa"
+    ],
+    "outcomes": [
+      "Tự sản xuất các video quảng cáo hoạt hình 2D chuyên nghiệp",
+      "Sở hữu kỹ năng Motion Graphic có nhu cầu tuyển dụng cực lớn",
+      "Biết cách làm việc với khách hàng sản xuất video truyền thông"
+    ],
+    "updatedAt": "Tháng 08/2026"
+  },
+  {
+    "id": "course-16",
+    "title": "Xây Dựng Thương Hiệu Cá Nhân & Bán Hàng Trên TikTok",
+    "instructor": {
+      "name": "Lê Vũ Diệu Linh",
+      "role": "Top Creator 2M Followers & Livestream Trainer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Marketing",
+    "shortDescription": "Quy trình xây dựng kênh TikTok từ 0 đến 100k người theo dõi trong 60 ngày: Lên kịch bản viral, quay dựng CapCut và mở TikTok Shop.",
+    "description": "Khoá học vạch trần thuật toán đề xuất video For You Page của TikTok. Hướng dẫn cách tìm kiếm chủ đề triệu view, nghệ thuật kể chuyện Hook 3 giây đầu giữ chân người xem, setup phòng Livestream bán hàng chuyên nghiệp và tối ưu tỷ lệ chuyển đổi giỏ hàng.",
+    "price": 320000,
+    "originalPrice": 690000,
+    "studentsCount": 13400,
+    "rating": 4.6,
+    "reviewsCount": 1560,
+    "duration": "20 giờ học",
+    "lecturesCount": 56,
+    "level": "Tất cả trình độ",
+    "thumbnail": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Giải mã thuật toán TikTok & Định vị kênh độc bản",
+        "duration": "5 giờ",
+        "lessonsCount": 14,
+        "lessons": [
+          "Cơ chế chấm điểm video: Thời gian xem, Tương tác, Tỉ lệ xem lại",
+          "Lựa chọn thị trường ngách (Niche) phù hợp thế mạnh cá nhân",
+          "Công thức viết tiêu đề giật tít và Hook giữ chân người xem"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Quay dựng thần tốc & Vận hành TikTok Shop kiếm tiền",
+        "duration": "8 giờ",
+        "lessonsCount": 24,
+        "lessons": [
+          "Bí kíp quay video đẹp chỉ với một chiếc điện thoại thông minh",
+          "Chỉnh sửa hiệu ứng, chèn text và âm thanh bắt trend bằng CapCut",
+          "Liên kết tài khoản TikTok Shop và làm Affiliate Marketing bền vững"
+        ]
+      }
+    ],
+    "requirements": [
+      "Điện thoại thông minh có cài ứng dụng TikTok và CapCut",
+      "Sẵn sàng xuất hiện trước ống kính camera"
+    ],
+    "outcomes": [
+      "Tự xây dựng kênh TikTok đạt tích xanh và hàng chục nghìn lượt theo dõi",
+      "Tạo nguồn thu nhập thụ động bền vững từ tiếp thị liên kết Affiliate",
+      "Tự tin livestream bán hàng thu hút hàng nghìn mắt xem cùng lúc"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-17",
+    "title": "Phân Tích Báo Cáo Tài Chính & Đầu Tư Chứng Khoán Thực Chiến",
+    "instructor": {
+      "name": "ThS. Trịnh Văn Minh, CFA",
+      "role": "Trưởng phòng Phân tích Đầu tư @ SSI Securities",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Kinh doanh",
+    "shortDescription": "Đọc hiểu 3 bảng báo cáo tài chính, định giá cổ phiếu theo phương pháp DCF, P/E, P/B và phân tích kỹ thuật biểu đồ hình nến.",
+    "description": "Khoá học trang bị tư duy đầu tư giá trị theo phong cách Warren Buffett. Giúp bạn nhìn thấu sức khỏe tài chính doanh nghiệp, phát hiện các thủ thuật xào nấu số liệu kế toán và xây dựng danh mục đầu tư tăng trưởng bền vững qua các chu kỳ kinh tế.",
+    "price": 620000,
+    "originalPrice": 1300000,
+    "studentsCount": 8700,
+    "rating": 4.9,
+    "reviewsCount": 1100,
+    "duration": "34 giờ học",
+    "lecturesCount": 86,
+    "level": "Trung cấp",
+    "badge": "Đánh giá cao",
+    "thumbnail": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Đọc hiểu Báo cáo Tài chính như một chuyên gia",
+        "duration": "10 giờ",
+        "lessonsCount": 26,
+        "lessons": [
+          "Bảng Cân đối kế toán: Phân tích cơ cấu nợ và chất lượng tài sản",
+          "Báo cáo Kết quả kinh doanh: Biên lợi nhuận gộp và đòn bẩy hoạt động",
+          "Báo cáo Lưu chuyển tiền tệ: Dòng tiền kinh doanh OCF có thật không?"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Định giá cổ phiếu & Quản trị rủi ro danh mục",
+        "duration": "12 giờ",
+        "lessonsCount": 30,
+        "lessons": [
+          "Phương pháp chiết khấu dòng tiền tự do doanh nghiệp (DCF)",
+          "Định giá tương đối với P/E, P/B kết hợp chỉ số PEG",
+          "Quy tắc cắt lỗ và phân bổ vốn theo tỷ lệ Sharpe an toàn"
+        ]
+      }
+    ],
+    "requirements": [
+      "Quan tâm đến thị trường tài chính và tích lũy tài sản cá nhân",
+      "Biết sử dụng Microsoft Excel cơ bản"
+    ],
+    "outcomes": [
+      "Tự chọn lọc được các cổ phiếu kim cương có lợi thế cạnh tranh lớn",
+      "Không bao giờ bị sập bẫy các đợt thao túng giá hay tin đồn thất thiệt",
+      "Xây dựng kế hoạch độc lập tài chính dài hạn và an tâm đầu tư"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-18",
+    "title": "Tiếng Nhật Cấp Tốc N3 Dành Cho Kỹ Sư Công Nghệ Thông Tin (IT Comtor)",
+    "instructor": {
+      "name": "Yamamoto Kenji & Lê Thu Hà",
+      "role": "Bilingual Bridge System Engineer (BrSE) @ Tokyo",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Ngoại ngữ",
+    "shortDescription": "Lộ trình chinh phục chứng chỉ JLPT N3, từ vựng kỹ thuật IT tiếng Nhật, dịch tài liệu đặc tả chức năng (Spec) và giao tiếp với khách hàng Nhật.",
+    "description": "Khoá học được may đo cho các bạn kỹ sư IT muốn sang Nhật làm việc hoặc làm cầu nối BrSE/Comtor. Bạn sẽ được học văn hóa ứng xử Hou-Ren-So trong doanh nghiệp Nhật, cách viết mail chuẩn mực Keigo (Kính ngữ) và dịch tài liệu dự án phần mềm.",
+    "price": 590000,
+    "originalPrice": 1200000,
+    "studentsCount": 6100,
+    "rating": 4.8,
+    "reviewsCount": 820,
+    "duration": "40 giờ học",
+    "lecturesCount": 115,
+    "level": "Trung cấp",
+    "thumbnail": "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Ngữ pháp cốt lõi N3 & Từ vựng chuyên ngành IT Nhật",
+        "duration": "12 giờ",
+        "lessonsCount": 35,
+        "lessons": [
+          "Tổng hợp 100 mẫu ngữ pháp xuất hiện nhiều nhất trong đề thi JLPT N3",
+          "500 từ vựng IT tiếng Nhật thường dùng trong tài liệu phần mềm",
+          "Kỹ năng đọc nhanh đề bài Dokkai và loại trừ đáp án nhiễu"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Tiếng Nhật thương mại & Tác phong Hou-Ren-So",
+        "duration": "14 giờ",
+        "lessonsCount": 40,
+        "lessons": [
+          "Cách sử dụng Kính ngữ (Keigo), Khiêm nhường ngữ khi làm việc",
+          "Quy tắc báo cáo, liên lạc và thảo luận chuẩn tác phong Nhật Bản",
+          "Thực hành đọc dịch tài liệu đặc tả yêu cầu người dùng (Requirement Spec)"
+        ]
+      }
+    ],
+    "requirements": [
+      "Đã có trình độ tiếng Nhật tương đương N4 hoặc hoàn thành 50 bài Minna no Nihongo",
+      "Mong muốn làm việc tại các dự án Offshore thị trường Nhật Bản"
+    ],
+    "outcomes": [
+      "Đạt chứng chỉ JLPT N3 ngay trong kỳ thi gần nhất",
+      "Tự tin đọc hiểu tài liệu dự án kỹ thuật bằng tiếng Nhật",
+      "Đạt mức thu nhập cao hơn 30-50% khi biết thêm tiếng Nhật công nghệ"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-19",
+    "title": "DevOps Toàn Diện: Docker, Kubernetes, CI/CD Pipeline & Terraform",
+    "instructor": {
+      "name": "Đặng Quốc Việt",
+      "role": "Head of Platform Engineering @ FPT Telecom",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Công nghệ thông tin",
+    "shortDescription": "Xây dựng quy trình tự động hóa triển khai phần mềm liên tục CI/CD với GitLab/GitHub Actions, đóng gói Docker Container và điều phối Kubernetes.",
+    "description": "Khoá học thực tiễn giúp bạn trở thành DevOps Engineer chuyên nghiệp. Hướng dẫn chi tiết cách quản lý hạ tầng dưới dạng mã (Infrastructure as Code) bằng Terraform, giám sát hệ thống với Prometheus & Grafana, và vận hành cụm Kubernetes an toàn.",
+    "price": 890000,
+    "originalPrice": 1900000,
+    "studentsCount": 6700,
+    "rating": 4.9,
+    "reviewsCount": 910,
+    "duration": "46 giờ học",
+    "lecturesCount": 125,
+    "level": "Nâng cao",
+    "badge": "Bán chạy nhất",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Containerization với Docker & Docker Compose",
+        "duration": "10 giờ",
+        "lessonsCount": 28,
+        "lessons": [
+          "Bản chất Container, Image layers và tối ưu hóa kích thước Dockerfile",
+          "Mạng Docker Network và quản lý lưu trữ với Docker Volume",
+          "Triển khai cụm ứng dụng nhiều dịch vụ với Docker Compose"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Điều phối Kubernetes K8s & Tự động hóa CI/CD",
+        "duration": "18 giờ",
+        "lessonsCount": 50,
+        "lessons": [
+          "Kiến trúc Pod, Deployment, Service và Ingress Controller trong K8s",
+          "Cấu hình HPA tự động mở rộng theo tải CPU / Memory",
+          "Xây dựng pipeline CI/CD tự động test, build và deploy lên K8s cluster"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có kiến thức vững về Linux OS và dòng lệnh Bash shell",
+      "Đã hiểu quy trình phát triển phần mềm Web cơ bản"
+    ],
+    "outcomes": [
+      "Xây dựng quy trình release phần mềm không gián đoạn (Zero Downtime)",
+      "Làm chủ hệ sinh thái Kubernetes và các công cụ Cloud Native",
+      "Nâng cao vị thế và mức lương vượt trội trong ngành CNTT"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-20",
+    "title": "Lập Trình Web Fullstack Thực Chiến với Next.js 14, Tailwind & Prisma",
+    "instructor": {
+      "name": "Hoàng Anh Tuấn",
+      "role": "Fullstack Lead @ TechCorp Vietnam",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Lập trình",
+    "shortDescription": "Làm chủ Next.js App Router, React Server Components (RSC), Server Actions, Prisma ORM, PostgreSQL và tối ưu SEO tuyệt đối.",
+    "description": "Khoá học hiện đại nhất về phát triển ứng dụng Web toàn diện. Bạn sẽ tự tay xây dựng một sàn thương mại điện tử hoàn chỉnh: tích hợp cổng thanh toán VNPay / Stripe, xác thực NextAuth.js, quản lý ảnh trên Cloudinary và triển khai Vercel.",
+    "price": 620000,
+    "originalPrice": 1300000,
+    "studentsCount": 11200,
+    "rating": 4.9,
+    "reviewsCount": 1420,
+    "duration": "36 giờ học",
+    "lecturesCount": 110,
+    "level": "Trung cấp",
+    "badge": "Khóa học mới",
+    "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Next.js App Router & Server Components Đột Phá",
+        "duration": "9 giờ",
+        "lessonsCount": 26,
+        "lessons": [
+          "Cơ chế hoạt động của React Server Components vs Client Components",
+          "Routing lồng nhau (Nested Layouts), Loading UI và Error Boundaries",
+          "Data Fetching, Caching và Revalidation động (ISR)"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Server Actions, Database Prisma & Thanh Toán Trực Tuyến",
+        "duration": "14 giờ",
+        "lessonsCount": 42,
+        "lessons": [
+          "Đột phá với Server Actions không cần viết API route trung gian",
+          "Thiết kế cơ sở dữ liệu quan hệ PostgreSQL với Prisma ORM",
+          "Tích hợp Webhook và cổng thanh toán tự động xử lý đơn hàng"
+        ]
+      }
+    ],
+    "requirements": [
+      "Đã nắm cơ bản về React và JavaScript ES6",
+      "Máy tính cài đặt Node.js phiên bản 18 trở lên"
+    ],
+    "outcomes": [
+      "Thành thạo framework số 1 thế giới Next.js 14 App Router",
+      "Tự xây dựng ứng dụng Web chuẩn Production từ đầu đến cuối",
+      "Có dự án Portfolio khủng thu hút nhà tuyển dụng ngay từ cái nhìn đầu tiên"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-21",
+    "title": "Thiết Kế Đồ Họa 3D với Blender: Dựng Hình & Tạo Hoạt Cảnh Sống Động",
+    "instructor": {
+      "name": "Nguyễn Minh Đức",
+      "role": "3D Artist @ Sparx* Virtuos Games",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Thiết kế đồ họa",
+    "shortDescription": "Học Blender từ căn bản: Dựng hình khối Modeling, điêu khắc Sculpting, gán chất liệu Material, chiếu sáng Lighting và Render chân thực.",
+    "description": "Khoá học mở cánh cửa bước vào thế giới đồ họa 3D không giới hạn. Tự tay tạo dựng các mô hình nhân vật game, bối cảnh kiến trúc Isometric, gán chất liệu PBR chân thực và render ảnh/video chất lượng cao bằng Cycles và Eevee Engine.",
+    "price": 540000,
+    "originalPrice": 1150000,
+    "studentsCount": 4600,
+    "rating": 4.8,
+    "reviewsCount": 610,
+    "duration": "34 giờ học",
+    "lecturesCount": 84,
+    "level": "Cơ bản",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Giao diện Blender & Dựng hình khối cơ bản",
+        "duration": "8 giờ",
+        "lessonsCount": 22,
+        "lessons": [
+          "Điều hướng không gian 3D và các phím tắt vàng trong Blender",
+          "Kỹ thuật dựng hình Low-poly và Modifier quan trọng (Subdivision, Mirror)",
+          "Trải lưới UV Mapping chuẩn bị cho công đoạn vẽ chất liệu"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Chất liệu Shader Nodes, Ánh sáng và Render",
+        "duration": "11 giờ",
+        "lessonsCount": 30,
+        "lessons": [
+          "Tạo chất liệu thủy tinh, kim loại, da người bằng Principled BSDF",
+          "Setup ánh sáng 3 điểm nghệ thuật (Key, Fill, Rim Light)",
+          "Render ảnh tĩnh độ phân giải 4K và hoạt cảnh chuyển động"
+        ]
+      }
+    ],
+    "requirements": [
+      "Máy tính có card đồ họa rời (NVIDIA/AMD) để render mượt mà",
+      "Chuột máy tính có con lăn ở giữa"
+    ],
+    "outcomes": [
+      "Thành thạo phần mềm mã nguồn mở mạnh mẽ Blender 4.x",
+      "Tự tạo ra các tác phẩm nghệ thuật 3D ấn tượng",
+      "Bước đệm lý tưởng để tham gia ngành Game hoặc Kỹ xảo điện ảnh"
+    ],
+    "updatedAt": "Tháng 08/2026"
+  },
+  {
+    "id": "course-22",
+    "title": "Xây Dựng Chiến Lược Nội Dung & Content Marketing Thu Hút",
+    "instructor": {
+      "name": "Trần Thu Ngân",
+      "role": "Content Strategy Manager @ Ogilvy",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Marketing",
+    "shortDescription": "Nghệ thuật kể chuyện (Storytelling), sáng tạo thông điệp chạm cảm xúc, lập kế hoạch lịch biên tập và viết bài PR, Blog chuẩn SEO.",
+    "description": "Khoá học giúp bạn giải phóng ngòi bút sáng tạo và làm chủ nghệ thuật thôi miên bằng ngôn từ. Tìm hiểu cách lập kế hoạch nội dung hàng tháng cho doanh nghiệp, viết thông cáo báo chí, kịch bản podcast và ứng dụng AI sáng tạo nội dung hiệu quả mà vẫn giữ chất riêng.",
+    "price": 350000,
+    "originalPrice": 750000,
+    "studentsCount": 8900,
+    "rating": 4.7,
+    "reviewsCount": 1120,
+    "duration": "22 giờ học",
+    "lecturesCount": 60,
+    "level": "Cơ bản",
+    "thumbnail": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Tư duy Storytelling & Kỹ thuật viết bài chạm cảm xúc",
+        "duration": "6 giờ",
+        "lessonsCount": 18,
+        "lessons": [
+          "Cấu trúc câu chuyện kinh điển: Nhân vật - Biến cố - Giải pháp",
+          "Công thức viết quảng cáo PAS, AIDA và FAB kinh điển",
+          "Nghệ thuật giật tít không giật gân, cuốn hút người đọc ngay lập tức"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Lập kế hoạch nội dung Content Calendar & Đo lường",
+        "duration": "8 giờ",
+        "lessonsCount": 22,
+        "lessons": [
+          "Phân bổ tỷ lệ nội dung 70-20-10 cho mạng xã hội",
+          "Quy trình tái chế một ý tưởng thành 10 định dạng nội dung khác nhau",
+          "Đo lường chỉ số tương tác Engagement và tỉ lệ chuyển đổi đơn hàng"
+        ]
+      }
+    ],
+    "requirements": [
+      "Đam mê viết lách và chia sẻ kiến thức",
+      "Có máy tính hoặc máy tính bảng kết nối mạng"
+    ],
+    "outcomes": [
+      "Không bao giờ bị cạn kiệt ý tưởng viết bài",
+      "Biết cách viết nội dung bán hàng tự nhiên không gây khó chịu",
+      "Có khả năng xây dựng chiến lược truyền thông toàn diện cho nhãn hàng"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  },
+  {
+    "id": "course-23",
+    "title": "Tiếng Trung Thương Mại & Đàm Phán Giao Thương (HSK 5+)",
+    "instructor": {
+      "name": "Cô Trần Cẩm Tú & Thầy Wang Wei",
+      "role": "Tiến sĩ Hán ngữ @ Đại học Bắc Kinh",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Ngoại ngữ",
+    "shortDescription": "Từ vựng tiếng Trung xuất nhập khẩu, soạn thảo hợp đồng kinh tế, kỹ năng đàm phán giá cả trực tiếp tại các hội chợ thương mại Trung Quốc.",
+    "description": "Khoá học đắt giá cho người làm kinh doanh xuất nhập khẩu và tìm nguồn hàng. Hướng dẫn chi tiết cách tìm xưởng sản xuất uy tín trên 1688/Taobao, kiểm tra chất lượng hàng hóa, đàm phán điều khoản thanh toán CIF/FOB và giải quyết tranh chấp thương mại.",
+    "price": 650000,
+    "originalPrice": 1400000,
+    "studentsCount": 7300,
+    "rating": 4.9,
+    "reviewsCount": 980,
+    "duration": "35 giờ học",
+    "lecturesCount": 92,
+    "level": "Trung cấp",
+    "badge": "Đánh giá cao",
+    "thumbnail": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Tiếng Trung đàm phán hỏi hàng & Báo giá sản phẩm",
+        "duration": "9 giờ",
+        "lessonsCount": 24,
+        "lessons": [
+          "Mẫu câu đàm phán ép giá với chủ xưởng sản xuất",
+          "Thuật ngữ xuất nhập khẩu: Đóng gói, Vận chuyển, Thuế quan",
+          "Kỹ năng chat trực tiếp với nhà cung cấp qua ứng dụng Aliwangwang"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Soạn thảo hợp đồng & Văn hóa bàn tiệc kinh doanh",
+        "duration": "11 giờ",
+        "lessonsCount": 30,
+        "lessons": [
+          "Các điều khoản pháp lý quan trọng trong hợp đồng song ngữ Trung - Việt",
+          "Nghi thức giao tiếp và xã giao trên bàn tiệc kinh doanh Trung Hoa",
+          "Xử lý các tình huống khi hàng hóa bị lỗi hoặc giao trễ hẹn"
+        ]
+      }
+    ],
+    "requirements": [
+      "Có nền tảng tiếng Trung HSK 3 hoặc tương đương",
+      "Quan tâm đến ngành kinh doanh thương mại và xuất nhập khẩu"
+    ],
+    "outcomes": [
+      "Tự tin đàm phán giá tận xưởng không cần qua trung gian phiên dịch",
+      "Đọc hiểu và soạn thảo các văn bản thương mại chuẩn xác",
+      "Tiết kiệm hàng trăm triệu tiền hàng nhờ kỹ năng đàm phán sắc sảo"
+    ],
+    "updatedAt": "Tháng 10/2026"
+  },
+  {
+    "id": "course-24",
+    "title": "Cơ Sở Dữ Liệu SQL & Tối Ưu Truy Vấn Cơ Sở Dữ Liệu Lớn (PostgreSQL)",
+    "instructor": {
+      "name": "Đỗ Hoàng Long",
+      "role": "Database Administrator @ Techcombank",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80"
+    },
+    "category": "Công nghệ thông tin",
+    "shortDescription": "Thiết kế chuẩn hóa Database (1NF-3NF), viết câu lệnh JOIN phức tạp, Indexing, Partitioning, Stored Procedure và đọc Execution Plan EXPLAIN.",
+    "description": "Khoá học nền tảng không thể thiếu cho bất kỳ kỹ sư phần mềm nào. Bạn sẽ hiểu bản chất lưu trữ dữ liệu dưới ổ đĩa, cách B-Tree index hoạt động, xử lý Transaction với mức cô lập Isolation Level, phòng tránh Deadlock và tối ưu truy vấn chạy từ 10 giây xuống 20 mili-giây.",
+    "price": 480000,
+    "originalPrice": 990000,
+    "studentsCount": 9200,
+    "rating": 4.8,
+    "reviewsCount": 1180,
+    "duration": "32 giờ học",
+    "lecturesCount": 85,
+    "level": "Cơ bản",
+    "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=800&q=80",
+    "curriculum": [
+      {
+        "id": "ch-1",
+        "title": "Chương 1: Thiết kế CSDL Quan hệ & Câu lệnh SQL cơ bản đến nâng cao",
+        "duration": "10 giờ",
+        "lessonsCount": 28,
+        "lessons": [
+          "Mô hình thực thể kết hợp ERD và các dạng chuẩn 1NF, 2NF, 3NF",
+          "Thành thạo Inner/Left/Right/Full Outer JOIN và Subqueries",
+          "Hàm tổng hợp Window Functions (ROW_NUMBER, RANK, DENSE_RANK)"
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Chương 2: Tối ưu hiệu năng truy vấn với Index & Phân vùng dữ liệu",
+        "duration": "12 giờ",
+        "lessonsCount": 32,
+        "lessons": [
+          "Bản chất cấu trúc B-Tree Index, GiST, GIN trong PostgreSQL",
+          "Đọc hiểu kế hoạch thực thi câu lệnh EXPLAIN ANALYZE",
+          "Kỹ thuật phân vùng bảng Table Partitioning cho bảng hàng chục triệu bản ghi"
+        ]
+      }
+    ],
+    "requirements": [
+      "Máy tính cài đặt PostgreSQL và pgAdmin (được hướng dẫn chi tiết)",
+      "Không yêu cầu kiến thức lập trình trước đó"
+    ],
+    "outcomes": [
+      "Tự thiết kế cơ sở dữ liệu tối ưu cho các hệ thống phần mềm lớn",
+      "Viết các câu truy vấn báo cáo phức tạp nhanh chóng và chính xác",
+      "Tự tin phân tích và tối ưu hóa các câu lệnh SQL bị nghẽn cổ chai"
+    ],
+    "updatedAt": "Tháng 09/2026"
+  }
+]
